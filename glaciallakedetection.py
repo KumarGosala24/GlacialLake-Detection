@@ -374,8 +374,8 @@ import matplotlib.pyplot as plt
 import requests
 
 # === Telegram Bot Setup ===
-BOT_TOKEN = "8407569182:AAHQKRjpFY5jIDSDql1jgDUCvPQCOSWB9h4"
-CHAT_ID = "1802159603"
+BOT_TOKEN = "Replace by Your Token"
+CHAT_ID = "Replace By Your Chat ID"
 
 def send_telegram_alert(message):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
